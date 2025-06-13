@@ -1,0 +1,168 @@
+/* 🔹 CONFIGURACIÓN GLOBAL */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+/* 🔹 CONTENEDORES PRINCIPALES */
+.ContenedorP {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ContenedorS {
+    width: 100%;
+    height: 100%;
+}
+
+/* 🔹 MENÚ DE NAVEGACIÓN */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* 🔹 LISTA DE ENLACES DEL MENÚ */
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+/* 🔹 ESTILOS DE LOS ENLACES DEL MENÚ */
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* 🔹 ÍCONO DEL MENÚ */
+.icon {
+    height: 40px;
+    margin: 15px;
+    margin-right: 40px;
+}
+
+/* 🔹 CABECERA (HEADER) */
+header {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* 🔹 SOMBRA OSCURA SOBRE LA CABECERA */
+.sombra {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* 🔹 TÍTULO PRINCIPAL */
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 15%;
+    font-size: 70px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+/* 🔹 CONTENIDO PRINCIPAL */
+.cont1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.inf1, .inf2, .inf3 {
+    margin: 70px;
+    justify-content: center;
+}
+
+.inf2, .inf3 {
+    margin-top: 100px;
+}
+
+.persona, .nota, .artista {
+    width: 300px;
+}
+
+/* 🔹 SECCIONES ADICIONALES */
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/contenido2.png);
+    background-size: cover;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc_title, .desc2_title {
+    text-align: center;
+    font-size: 60px;
+    margin: 50px auto;
+    border-top: none;
+    padding-top: 30px;
+    width: 80%;
+}
+
+.p1, .p2 {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.cont3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/contenido2.png);
+    background-size: cover;
+}
+
+/* 🔹 PIE DE PÁGINA */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #0e0e48;
+    color: white;
+    font-size: 20px;
+}
